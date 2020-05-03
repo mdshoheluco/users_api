@@ -1,0 +1,29 @@
+{
+  "name": "users_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9",
+    "node-geocoder": "^3.27.0",
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --exec babel-node -e js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
